@@ -1,0 +1,7 @@
+﻿  dllmain.cpp
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(84,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(88,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(92,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(104,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(108,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+  windows dll.vcxproj -> D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\Debug\windows dll.dll

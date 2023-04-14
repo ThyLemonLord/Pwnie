@@ -1,0 +1,14 @@
+Put the speedBoost.cpp and libGameLogic.h files into the ./Inputs/Source/ directory
+
+Then call the bundlehax.sh from the root of this section
+
+Now you should have pwnhax.sh in the ./Outputs directory
+
+Simply copy this to the same directory that pwnie islands binary is in
+
+
+
+To use the script:
+	Within the terminal, enter the directory that pwnie islands binary is in
+	Run "./pwnhax.sh compile" to compile the library, a .so file will appear in the directory
+	Then Run "./pwnhax.sh" whenenver you want the game to run with that library preloaded, Happy Hacking :)

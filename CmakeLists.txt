@@ -1,0 +1,45 @@
+cmake_minimum_required(VERSION 3.0)
+project(team10 VERSION 1.0.0)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED YES)
+
+message(STATUS "Compiling PWNIE-FLAPPY dll")
+
+
+#  if(Win32)
+    # message(STATUS "Making for Windows x86 systems")
+    #  set(TARGET_SRC
+    #      "src/Main.cpp"
+    #      "windows dll/windows dll/dllmain.cpp"
+    #      "windows dll/windows dll/pch.cpp")
+
+    #  set(TARGET_INCL
+    #      "src/Main.h"
+    #      "windows dll/windows dll/framework.h"
+    #      "windows dll/windows dll/pch.h")
+
+
+    #  add_library(${PROJECT_NAME} SHARED ${TARGET_SRC})
+    #  target_include_directories(${PROJECT_NAME} PUBLIC "include")
+# elseif(UNIX)
+
+#     # if(CMAKE_SYSTEM_NAME NOT EQUAL Linux)
+#     #     set(CMAKE_SYSTEM_NAME Linux)
+#     #     set(CMAKE_C_COMPILER gcc)
+#     #     set(CMAKE_CXX_COMPILER g++)
+#     # endif()
+    set(PROJECT_NAME speedBoost)
+    set(TARGET_SRC
+        "linux/FlappyGame.cpp"
+        "linux/speedBoost.cpp")
+
+    set(TARGET_INCL
+        "linux/FlappyGame.h"
+        "linux/libGameLogic.h")
+
+
+    add_library(${PROJECT_NAME} SHARED ${TARGET_SRC})
+    target_include_directories(${PROJECT_NAME} PUBLIC "include")
+# endif()
+
+#target_include_directories(${PROJECT_NAME} PUBLIC "@UNREAL_ENGINE_INCLUDE_DIR")

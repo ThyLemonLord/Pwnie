@@ -1,0 +1,21 @@
+﻿  dllmain.cpp
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(44,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(48,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(52,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(64,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(74,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): message : this argument is used by a conversion specifier
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): message : the missing variadic argument 2 is required by format string '%s'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(116,11): message : this argument is used as a buffer size
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(159,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(169,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): message : this argument is used by a conversion specifier
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): message : the missing variadic argument 2 is required by format string '%s'
+D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\windows dll\dllmain.cpp(171,11): message : this argument is used as a buffer size
+  windows dll.vcxproj -> D:\Uni\Year-3\Security\Team Project\team10-pwnie\windows dll\x64\Debug\windows dll.dll

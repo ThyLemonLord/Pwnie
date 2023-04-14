@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"x coord"</Description>
+      <LastState Value="2.006659401E-42" RealAddress="1AC07490"/>
+      <VariableType>Float</VariableType>
+      <Address>1AC07490</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"y coord"</Description>
+      <LastState Value="2.005258102E-42" RealAddress="1AC07494"/>
+      <VariableType>Float</VariableType>
+      <Address>1AC07494</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"z coord"</Description>
+      <LastState Value="-2.001054207E-42" RealAddress="1AC07498"/>
+      <VariableType>Float</VariableType>
+      <Address>1AC07498</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"mana"</Description>
+      <LastState Value="3188114762" RealAddress="47F3709C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>47F3709C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"health"</Description>
+      <LastState Value="3193918318" RealAddress="47F36FA0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>47F36FA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"pwncoins"</Description>
+      <LastState Value="0" RealAddress="47E186C0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>47E186C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"x coord"</Description>
+      <LastState Value="-50000" Activated="1" RealAddress="2E56B090"/>
+      <VariableType>Float</VariableType>
+      <Address>"PwnAdventure3-Win32-Shipping.exe"+01900600</Address>
+      <Offsets>
+        <Offset>98-8</Offset>
+        <Offset>218</Offset>
+        <Offset>488</Offset>
+        <Offset>3C</Offset>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"y coord"</Description>
+      <LastState Value="-25000" Activated="1" RealAddress="2E56B094"/>
+      <VariableType>Float</VariableType>
+      <Address>"PwnAdventure3-Win32-Shipping.exe"+01900600</Address>
+      <Offsets>
+        <Offset>98-4</Offset>
+        <Offset>218</Offset>
+        <Offset>488</Offset>
+        <Offset>3C</Offset>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"z coord"</Description>
+      <LastState Value="9517.271484" Activated="1" RealAddress="2E56B098"/>
+      <VariableType>Float</VariableType>
+      <Address>"PwnAdventure3-Win32-Shipping.exe"+01900600</Address>
+      <Offsets>
+        <Offset>98</Offset>
+        <Offset>218</Offset>
+        <Offset>488</Offset>
+        <Offset>3C</Offset>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"mana"</Description>
+      <LastState Value="999995" RealAddress="549F937C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"PwnAdventure3-Win32-Shipping.exe"+01900600</Address>
+      <Offsets>
+        <Offset>BC</Offset>
+        <Offset>3E0</Offset>
+        <Offset>244</Offset>
+        <Offset>20</Offset>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"health"</Description>
+      <LastState Value="999999" RealAddress="549F9280"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"PwnAdventure3-Win32-Shipping.exe"+01900600</Address>
+      <Offsets>
+        <Offset>BC-FC</Offset>
+        <Offset>3E0</Offset>
+        <Offset>244</Offset>
+        <Offset>20</Offset>
+        <Offset>AC</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
